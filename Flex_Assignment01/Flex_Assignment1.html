@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Assignment1</title>
+    </head>
+    <style>
+        body{
+            border: 1px solid black;
+            margin: 10px;
+            padding: 10px;
+        }
+        nav{
+            border: 1px solid purple;
+            display: flex;
+            justify-content: center;
+            padding: 40px;
+            margin: 10px;
+        }
+        aside{
+            border: 1px solid blue;
+            padding: 50px;
+        }
+        aside>a{
+            text-decoration: none;
+            font-weight: bold;
+            color: black;
+            display: block;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+        main{
+            flex-grow: 6;
+            border: 1px solid red;
+        }
+        section{
+            display: flex;
+            margin: 10px;
+        }
+        #div1,#div2{
+            border: 1px solid green;
+            margin-left: 10px;
+            margin-right: 10px;
+            display: flex;
+        }
+        #div1{
+            margin-top: 10px;
+        }
+        #div2{
+            margin-bottom: 10px;
+        }
+        #div1>div{
+            border: 1px solid black;
+            height: 300px;
+            width: 390px;
+            margin: 10px;
+        }
+        #div2>div{
+            border: 1px solid black;
+            height: 300px;
+            width: 390px;
+            margin: 10px;
+        }
+    </style>
+    <body>
+        <nav>
+            <h1>Header</h1>
+        </nav>
+        <section>
+            <aside>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Carrier</a>
+                <a href="#">Contact</a>
+            </aside>
+            <main>
+                <div id="div1">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <div id="div2">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>
