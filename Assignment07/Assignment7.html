@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment3 using Flex</title>
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            header{
+                display: flex;
+            }
+            header>div{
+                padding: 10px 80px;
+                margin: 30px;
+                width: 80px;
+                background-color: rgb(248, 231, 211);
+                text-align: center; 
+            } 
+            #Top{
+                display: flex;
+                margin: 5px;
+            }
+            aside{
+                margin: 10px;
+            }
+            #div1,#div2{
+                display: flex;
+                border: 1px solid black;
+                margin: 10px;
+                justify-content: center;
+                align-items: center;
+                padding: 120px 160px;
+                background-color: rgb(223, 186, 133);
+            }
+            #container1{
+                display: flex;
+            }
+            #container1>div{
+                display: flex;
+                width: 185px;
+                height: 80px;
+                border: 1px solid black;
+                padding: 40px;
+                margin-left: 30px;
+                margin-top: 10px;
+                justify-content: center;
+                background-color: beige;
+            }
+           #LeftSide,#RightSide{
+                display: inline-block;
+            }
+            #LeftSide{
+                margin: 10px;
+            }
+            #RightSide{
+                padding: 150px 50px;
+            }
+            #container2{
+                display: flex;
+                border: 1px solid;
+                height: 420px;
+                width: 1500px;
+                margin-top: 20px;
+                text-align: left;
+                background-color: gainsboro;
+                padding-left: 20px;
+            }
+            button{
+                background-color: grey;
+                color: white;
+                border: none;
+            }
+            #food{
+                padding: 10px;
+            }
+            #Part1,#Part2{
+                display: flex;
+            }
+            #food>#Part1>img,#food>#Part2>img{
+                margin: 25px;
+            }
+            #LFooter{
+                padding-top: 10px;
+                padding-left: 300px;
+                font-size: 20px;
+            }
+            #RFooter>img{
+                padding-left: 500px;
+            }
+            footer{
+                background-color: gainsboro;
+                display: flex;
+            }
+            main{
+                background-color: grey;
+            }
+            section>img{
+                margin-top:15px; 
+                margin-left: 30px;
+                width:"1000px";
+                height:"450px";
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+        <header>
+            <div>Tacos</div>
+            <div>Beers</div>
+            <div>Wines</div>
+            <div>Desserts</div>
+            <div>Reservations</div>
+        </header>
+
+        <div id="Top">
+        <section>
+            <img src="Burger.jpg" alt="Burger" width="1000px">
+        </section>
+        
+        <aside>
+            <div id="div1"><h1>$1.99</h>
+                <h4>Tacos</h4></div>
+            <div id="div2"><h1>$1.99</h1>
+                <h4>Momos</h4>
+       </aside>
+       </div>
+
+        <div id="container1">
+            <div><p>Tacos <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+            <div><p>Beer <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+            <div><p>Wine <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+            <div><p>Pizza <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+            <div><p>Burger <br><br> Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p></div>
+        </div>
+        
+        <div id="container2">
+            <div id="LeftSide">
+                <img src="Pizza.jpg" alt="Pizza" width="800px" height="400px">
+            </div>   
+    
+            <div id="RightSide">
+                <h1>Headline</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus ad, rem eum maiores quos eius 
+                    soluta excepturi maxime culpa officia enim ullam magnam esse atque? Dolorum voluptate ipsam veniam reiciendis!
+                </p>
+                <button>Learn More</button>
+            </div>  
+        </div>
+
+        <div id="food">
+            <div id="Part1">
+            <img src="Idli.jpg" alt="Idli" width="450px" height="300px">
+            <img src="Thali.jpg" alt="Thali" width="450px" height="300px">
+            <img src="Fish.jpg" alt="Fish" width="450px" height="300px">
+        </div>
+        <div id="Part2">
+            <img src="Thali1.jpg" alt="Thali" width="450px" height="300px">
+            <img src="PaavBhaji.jpg" alt="PaavBhaji" width="450px" height="300px">
+        </div>
+    </main>
+    <footer>
+        <div id="LFooter">
+            <p>Tacos</p>
+            <p>Beer</p>
+            <p>Desserts</p>
+            <p>Reservations</p>
+        </div>
+        <div id="RFooter">
+            <img src="Fimage.jpg" alt="Logo" height="100px" width="300px">
+        </div>
+    </footer>
+    </body>
+</html>
