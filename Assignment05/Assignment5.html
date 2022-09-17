@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tribute Page for Steve Jobs</title>
+        <style>
+            body{
+                padding: 0;
+                margin-top: 0;
+                margin-left: 60px;
+            }
+            header{
+                border: 1px solid black;
+                background-color: gainsboro;
+                display: flex;               
+            }
+            header>img{
+                padding-left: 30px;
+            }
+            nav{
+                display: flex;
+                justify-content: center;   
+                align-items: center;
+                padding-left: 800px;           
+            }
+            nav>a{
+                text-decoration: none;
+                font-weight: bold;
+                font-size: 20px;
+                color: black;
+                padding: 20px;
+            }
+            section{
+                display: flex;
+                margin-right: 200px;
+            }
+            #main{
+                flex-grow: 3;
+                padding-right: 50px;
+                padding-top: 20px;
+            }
+            #sidebar{
+                border: 1px solid black;
+                background-color: gainsboro;
+            }
+            table{
+                padding: 60px;
+            }
+            .Box{
+                display: flex;
+            }
+            .b1{
+                padding: 20px 150px;
+                margin-top: 3px;
+                margin-bottom: 3px;
+                background-color: gray;
+                color: white;
+            }
+            .b2{
+                padding: 20px 230px;
+                margin-top: 3px;
+                margin-bottom: 3px;
+                background-color: gainsboro;
+            }
+            td{
+                width: 1000px;
+            }
+            footer{
+                margin-top: 5px;
+                margin-bottom: 5px;
+                background-color: gainsboro;
+                color: black;
+                padding: 40px;
+            }
+            footer>p{
+                display: flex;
+                justify-content: center;   
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="logo.jpg" alt="logo" height="100px">
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Carrer</a>
+                <a href="#">Contact Us</a>
+            </nav>
+       </header>
+       <section>
+            <div id="main">
+                <img src="img1.jpg" alt="Image1" width="1020px" height="500px">
+                <div class="Box">
+                    <div class="b1">Date and year </div>
+                    <div class="b2">Event occured at that time</div>
+               </div>
+               
+               <div class="Box">
+                    <div class="b1">Date and year </div>
+                    <div class="b2">Event occured at that time</div>
+                </div>
+                
+                <div class="Box">
+                    <div class="b1">Date and year </div>
+                    <div class="b2">Event occured at that time</div> 
+                </div>
+                
+                <div class="Box">
+                    <div class="b1">Date and year </div>
+                    <div class="b2">Event occured at that time</div>
+                </div>
+            
+                <div class="Box">
+                    <div class="b1">Date and year </div>
+                    <div class="b2">Event occured at that time</div>
+                </div>
+                <footer>
+                    <p>Any quote of Steve Jobs</p>
+               </footer>
+            </div>
+            <div id="sidebar">
+                <table>
+                    <tr>
+                        <td colspan="2"><img src="img2.jpg" alt="Image of Steve Jobs" width="200px" style="padding: 20px;"></a></td>
+                    </tr>
+                    <tr>
+                        <td>Born</td>
+                        <td>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<hr></td>
+                    </tr>
+                    <tr>
+                        <td>Died</td>
+                        <td>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<hr></td>
+                    </tr>
+                    <tr>
+                        <td>Occupation</td>
+                        <td>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<hr></td>
+                    </tr>
+                    <tr>
+                        <td>Parents</td>
+                        <td>Lorem ipsum dolor sit amet <br>consectetur adipisicing elit.<hr></td>
+                    </tr>
+                </table>
+            </div>
+       </section>
+    </body>
+</html>
