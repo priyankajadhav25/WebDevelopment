@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Assignment3</title>
+        <style>
+            body{
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+            }
+            nav{
+                border: 1px solid purple;
+                display: flex;
+                justify-content: center;
+                padding: 40px;
+            }
+            main{
+                display: flex;
+                border: red;
+            }
+            #DivLeft,#DivMiddle,#DivRight{
+                border: 1px solid green;
+                height: 250px;
+            }
+            #DivLeft,#DivRight{
+                flex-grow: 2;
+            }
+            #DivMiddle{
+                flex-grow: 4;
+                margin: 10px;
+            }
+            #DivLeft{
+                margin-right: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            #DivRight{
+                margin-left: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+            }
+            section{
+                border: 1px solid orange;
+                display: flex;
+            }
+            .partition>div{
+                border: 1px solid red;
+                height: 100px;
+                width: 695px;
+                margin: 10px;
+            }
+            .partition{
+                border: 1px solid green;
+                margin: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <nav>
+            <h1>Header</h1>
+        </nav>
+        <main>
+            <div id="DivLeft">
+
+            </div>
+            <div id="DivMiddle">
+
+            </div>
+            <div id="DivRight">
+
+            </div>
+        </main>
+        <section>
+            <div class="partition">
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+            <div class="partition">
+                <div>
+
+                </div>
+                <div>
+                    
+                </div>
+                <div>
+                    
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
