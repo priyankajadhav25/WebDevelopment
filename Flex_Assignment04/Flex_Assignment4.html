@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Flex Assignment4</title>
+        <style>
+            body{
+                border: 1px solid black;
+                margin: 10px;
+                padding: 10px;
+            }
+            header{
+                border: 1px solid purple;
+                display: flex;
+                justify-content: center;
+                padding: 30px;
+            }
+            nav>div{
+                border: 1px solid black;
+                margin: 10px;
+                text-decoration: none;
+                padding: 10px 100px;
+            }
+            nav{
+                display: flex;
+                border: 1px solid black;
+                margin-top: 10px;
+                justify-content: right;
+                padding-right: 50px;
+            }
+            section{
+                display: flex;
+                margin-top: 10px;
+            }
+            main{
+                border: 1px solid black;
+                flex-grow: 4;
+                display: flex;
+            }
+            .products{
+                border: 1px solid red;
+                margin: 10px;
+            }
+            .products>div{
+                border: 1px solid green;
+                width: 385px;
+                height: 300px;
+                margin: 10px;
+            }
+            aside{
+                flex-grow: 2;
+                margin-right: 10px;
+                border: 1px solid black;
+                padding: 50px;
+            }
+            aside>a{
+                text-decoration: none;
+                font-weight: bold;
+                color: black;
+                display: block;
+                display: flex;
+                justify-content: center;
+                padding: 10px;
+                font-size: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Header</h1>
+        </header>
+        <nav>
+            <div>Home</div>
+            <div>About</div>
+            <div>Help</div>
+            <div>Contact</div>
+        </nav>
+        <section>
+            <aside>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Help</a>
+                <a href="#">Contact</a>
+            </aside>
+            <main>
+                <div class="products">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="products">
+                    <div></div>
+                    <div></div>
+                </div>
+                <div class="products">
+                    <div></div>
+                    <div></div>
+                </div>
+            </main>
+        </section>
+    </body>
+</html>
